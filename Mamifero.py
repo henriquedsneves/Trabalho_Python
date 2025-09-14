@@ -2,6 +2,9 @@ from abc import ABC, abstractmethod
 
 
 class Mamifero(ABC):
+
+#o Self serve para que cada objeto guarde os seu metodos e atributos
+
     # Construtor
     def __init__(self, nome, idade): # atributos comuns
         self.nome = nome
